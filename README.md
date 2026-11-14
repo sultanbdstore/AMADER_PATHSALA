@@ -22,14 +22,3 @@ Free, offline, ad-free PWA. No server, no account, no data leaves the phone.
 - প্রশ্নগুলো নিজের ভাষায় লেখা (পাঠ্যবইয়ের হুবহু নয়); ক্লাস ৪ অংশ আনুমানিক — স্কুলের বই/শিক্ষকের সাথে মিলিয়ে নিন।
 - কুরআনের আয়াত/সুর নেই; শুদ্ধ তিলাওয়াত উস্তাদের কাছে শেখানো উচিত। ছড়া-গল্প সবই এই অ্যাপের জন্য নতুন লেখা।
 
-## GitHub Pages-এ চালু করা
-1. নতুন repo (যেমন `amader-pathshala`) বানিয়ে এই ফোল্ডারের সব ফাইল আপলোড করুন (`.github`, `.nojekyll` সহ)।
-2. Settings → Pages → Source: **GitHub Actions** (বা Deploy from branch → main / root)।
-3. লিংক: `https://<username>.github.io/amader-pathshala/` — Chrome-এ খুলে ⋮ → *Add to Home screen / Install app*।
-
-> প্রতিটি অ্যাপের জন্য আলাদা repo রাখুন, নইলে Chrome "already installed" দেখাতে পারে। ডেটা ব্রাউজারে থাকে — মাঝে মাঝে **ব্যাকআপ** নিন।
-
-## ফাইল
-`index.html` (পুরো অ্যাপ) · `sw.js` (অফলাইন; আপডেটে VERSION বাড়ান) · `manifest.webmanifest` · `icons/` · `.github/workflows/pages.yml`
-
-MIT License
